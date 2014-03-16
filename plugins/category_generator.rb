@@ -154,7 +154,7 @@ ERR
     #
     def category_links(categories)
       categories = categories.to_a.sort!.map { |c| category_link c }
-      categories.length.join(', ')
+      categories.join(', ')
     end
 
     # Outputs a single category as an <a> link.
